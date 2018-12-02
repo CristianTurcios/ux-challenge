@@ -1,0 +1,83 @@
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 0.5rem;
+}
+
+.vertical-menu-nav {
+    height: 300px;
+    background: orange;
+    border: 8px solid blue;
+
+}
+
+.vertical-check-in-form {
+    height: 600px;
+    background: orange;
+    border: 8px solid blue;
+
+}
+
+.social-nav {
+    height: 100px;
+    background: orange;
+    border: 8px solid blue;
+
+}
+
+.form-chair {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+
+}
+
+.calendar {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+
+}
+
+.restaurant-menu {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+.weather-card {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+.hotel-reservation {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+.trend-card {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+.comments-card {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+.video-card {
+    background: orange;
+    border: 8px solid blue;
+    height: 400px;
+}
+
+/* ul>li {
+    list-style:none;
+    border: 1px solid green;
+    width: 100%;
+    height: 73px;
+} */
