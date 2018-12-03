@@ -1,16 +1,60 @@
-.header {
+/* Inicio de los nav */
+.nav {
     height: 100px;
-    background: orange;
-    border-radius: 7px;
-    margin: 15px 0 15px 15px
-}
-.vertical-menu-nav {
-    height: 300px;
-    background: orange;
-    border-radius: 7px;
-    margin: 15px 0 15px 15px
+    background: #F6F6F6;
+    margin: 15px 0 15px 15px;
+    color: #9B9B9B;
+    font-weight: bold;
+    line-height: 50px;
 }
 
+.nav-item {
+    color: #9B9B9B;
+}
+
+.nav:first-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px
+}
+
+.nav:last-child {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.horizontal-hover:hover {
+    background-color: #FF4033;
+    color: whitesmoke;
+    box-shadow: 10px 0 0 #C70E11;
+}
+
+.vertical-hover:hover {
+    background-color: #FF4033;
+    color: whitesmoke;
+    box-shadow: 0 10px 0 #C70E11;
+}
+
+.vertical-menu-nav {
+    height: 300px;
+    background:#F6F6F6;
+    margin: 15px 0 15px 15px;
+}
+
+.vertical-menu-nav:first-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+.vertical-menu-nav:last-child {
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+}
+
+/* Fin de los nav*/
 .vertical-check-in-form {
     height: 650px;
     background: orange;
@@ -94,3 +138,16 @@
     width: 100%;
     height: 73px;
 } */
+
+/* ProjectColor */
+/* Gris claro: #F6F6F6 */
+/* Gris oscuro: #9B9B9B*/
+/* Amarillo: #F6EC50 */
+/* Salmon claro: #FFE0D0 */
+/* Salmon oscuro: #FAC4AF */
+/* Rojizo: #FF7E7F */
+/* Rojo: #FE4A3B */
+/* Ocre: #C70E11 */
+/* Celeste: #CAFAFD */
+/* Celeste oscuro: #90F9FE */
+/* Verdoso: #58BDC1 */
