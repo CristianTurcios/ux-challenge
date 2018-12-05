@@ -57,69 +57,87 @@
 /* Fin de los nav*/
 .vertical-check-in-form {
     height: 650px;
-    background: orange;
     border-radius: 7px;
-    margin: 15px 0 15px 15px   
+    margin: 15px 0 15px 15px;
+    background-image: url("./images/sarah-dorweiler-105892-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .form-chair {
-    background: orange;
     height: 400px;
     border-radius: 7px;
-    margin: 15px 0 15px 0
+    margin: 15px 0 15px 0;
+    background-image: url("./images/apartment-chair-contemporary-509922.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .calendar {
-    background: orange;
+    background: #F6F6F6;
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 0
 }
 
 .weather-card {
-    background: orange;
     border-radius: 7px;
     height: 400px;
-    margin: 15px 0 15px 0
+    margin: 15px 0 15px 0;
+    background-image: url("./images/pineapple-supply-co-244468-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .hotel-reservation {
-    background: orange;
     border-radius: 7px;
     height: 400px;
-    margin: 15px 0 15px 0
+    margin: 15px 0 15px 0;
+    background-image: url("./images/adventure-beach-blue-386025.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .social-nav {
     height: 100px;
-    background: orange;
+    background: #F6F6F6;
     border-radius: 7px;
     margin: 15px 0 15px 0
 }
 
 .restaurant-menu {
-    background: orange;
     border-radius: 7px;
     height: 400px;
-    margin: 15px 0 15px 15px
+    margin: 15px 0 15px 15px;
+    background-image: url("./images/background-colors-couple-958169.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .rate-trend-card {
-    background: orange;
+    background: #F6F6F6;
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 15px
 }
 
 .comments-card {
-    background: orange;
     border-radius: 7px;
     height: 400px;
-    margin: 15px 0 15px 15px
+    margin: 15px 0 15px 15px;
+    background-image: url("./images/art-background-beautiful-961402.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
 }
 
 .video-card {
-    background: orange;
+    background: #F6F6F6;
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 15px
@@ -127,7 +145,7 @@
 
 .footer {
     height: 100px;
-    background: orange;
+    background: #F6F6F6;
     border-radius: 7px;
     margin: 15px 0 15px 15px
 }
