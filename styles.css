@@ -55,6 +55,8 @@
 }
 
 /* Fin de los nav*/
+
+/* Start vertical check in form */
 .vertical-check-in-form {
     height: 650px;
     border-radius: 7px;
@@ -63,7 +65,9 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    padding: 70px;
 }
+/* Fin vertical check in form */
 
 /* Start form chair */
 .form-chair {
@@ -158,6 +162,7 @@
     background-size: cover;
 }
 
+/* Inicio Hotel Reservation */
 .hotel-reservation {
     border-radius: 7px;
     height: 400px;
@@ -166,7 +171,44 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    padding: 40px;
 }
+
+.hotel-reservation-title {
+    color: #9B9B9B;
+    text-transform: uppercase;
+}
+
+.hotel-reservation-subTitle {
+    color: #9B9B9B;
+    font-weight: bold;
+
+}
+
+.hotel-reservation-description {
+    color: #9B9B9B;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.divider {
+    margin: 30px 0 30px 0;
+    color: #9B9B9B;
+}
+
+.hotel-reservation-icons {
+    /* margin-left: 15px; */
+    margin-right: 15px;
+    color: #C70E11;
+}
+
+.hotel-reservation-icons__title {
+    color: #C70E11;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+/* Fin Hotel Reservation */
 
 .social-nav {
     height: 100px;
