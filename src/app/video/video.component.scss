@@ -1,5 +1,7 @@
+@import '../../sass/variables.scss';
+
 .video-card {
-    background: #F6F6F6;
+    background: $light-grey;
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 15px

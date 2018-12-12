@@ -1,3 +1,5 @@
+@import '../../sass/variables.scss';
+
 .hotel-reservation {
     border-radius: 7px;
     height: 400px;
@@ -10,34 +12,34 @@
 }
 
 .hotel-reservation-title {
-    color: #9B9B9B;
+    color: $dark-gray;
     text-transform: uppercase;
 }
 
 .hotel-reservation-subTitle {
-    color: #9B9B9B;
+    color: $dark-gray;
     font-weight: bold;
 
 }
 
 .hotel-reservation-description {
-    color: #9B9B9B;
+    color: $dark-gray;
     text-transform: uppercase;
     font-size: 15px;
 }
 
 .divider {
     margin: 30px 0 30px 0;
-    color: #9B9B9B;
+    color: $dark-gray;
 }
 
 .hotel-reservation-icons {
     margin-right: 15px;
-    color: #C70E11;
+    color: $ocher;
 }
 
 .hotel-reservation-icons__title {
-    color: #C70E11;
+    color: $ocher;
     text-transform: uppercase;
     font-weight: bold;
 
@@ -46,7 +48,7 @@
 .btn-danger {
     border-radius: 30px;
     border-color: none;
-    background: linear-gradient(to right, #FF7E7F, #FF4033);
+    background: linear-gradient(to right, $reddish, $red);
     padding-left: 40px;
     padding-right: 40px;
 }
