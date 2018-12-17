@@ -1,45 +1,54 @@
 @import '../../sass/variables.scss';
 
 .comments-card {
-    border-radius: 7px;
-    height: 400px;
-    margin: 15px 0 15px 15px;
-    background-image: url("../../assets/images/bloom-blossom-chamomile-1369280.jpg");
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    padding: 50px;
+  border-radius: 7px;
+  height: 400px;
+  margin: 15px 0 15px 15px;
+  background-image: url("../../assets/images/bloom-blossom-chamomile-1369280.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 50px;
 }
 
 .comment {
-    text-align: justify;
-    color: $dark-gray;
-    font-weight: bold;
+  text-align: justify;
+  color: $dark-gray;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 }
 
 .topic {
-    color: $dark-gray;
-    font-weight: bold;
-    text-transform: uppercase;
+  color: $dark-gray;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .one-nav__avatar {
-    width: 80px;
-    display: inline-block;
-    text-transform: uppercase;
-    color: $dark-gray;
-    font-weight: bold;
+  width: 80px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: $dark-gray;
+  font-weight: bold;
+  @media (max-width: 768px) {
+    width: 38px;
+  }
 }
 
-.img-fluid{
-    border-radius: 50%;
+.img-fluid {
+  border-radius: 50%;
 }
 
-.fa-heart{
-    color: $light-salmon;
-    margin: 6px;
+.fa-heart {
+  color: $light-salmon;
+  margin: 6px;
 }
 
 .checked {
-    color: $red;
+  color: $red;
 }
