@@ -1,0 +1,26 @@
+@import '../../sass/variables.scss';
+
+.btn-outline-danger{
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: $red;
+    color: $red;
+    text-transform: uppercase;
+}
+
+.btn-outline-danger:hover {
+  color: $light-grey;
+  background: $red;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-danger {
+  border-radius: 30px;
+  border-color: none;
+  background: $red;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+}

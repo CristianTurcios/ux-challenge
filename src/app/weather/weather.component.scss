@@ -1,3 +1,5 @@
+@import '../../sass/variables.scss';
+
 .weather-card {
     border-radius: 7px;
     height: 400px;
@@ -6,4 +8,12 @@
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    padding: 50px;
+    color: $light-grey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-center {
+    padding: 3px;
 }

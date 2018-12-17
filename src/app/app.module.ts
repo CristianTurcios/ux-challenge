@@ -15,6 +15,7 @@ import { HotelInformationComponent } from './hotel-information/hotel-information
 import { LogInComponent } from './log-in/log-in.component';
 import { SocialNAvComponent } from './social-nav/social-nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponent } from './footer/footer.component';
     HotelInformationComponent,
     LogInComponent,
     SocialNAvComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule

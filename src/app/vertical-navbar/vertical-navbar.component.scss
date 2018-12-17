@@ -11,6 +11,11 @@
 
 .nav-item {
     color: $dark-gray;
+    border-bottom: thin solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-item__without--border {
+    border-bottom: none;
 }
 
 .nav:first-child {
@@ -23,16 +28,10 @@
     border-bottom-left-radius: 7px;
 }
 
-.horizontal-hover:hover {
-    background-color: $red;
-    color: whitesmoke;
-    box-shadow: 10px 0 0 $ocher;
-}
-
 .vertical-hover:hover {
     background-color: $red;
     color: whitesmoke;
-    box-shadow: 0 10px 0 $ocher;
+    box-shadow: 10px 0 0 $ocher;
 }
 
 .vertical-menu-nav {

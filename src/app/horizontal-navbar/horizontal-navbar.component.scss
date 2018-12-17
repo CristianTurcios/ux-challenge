@@ -11,11 +11,17 @@
 
 .nav-item {
     color: $dark-gray;
+    border-left: thin solid rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.nav-item__without--border {
+  border-left: none;
 }
 
 .nav:first-child {
     border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px
+    border-bottom-right-radius: 7px;
 }
 
 .nav:last-child {
@@ -24,12 +30,6 @@
 }
 
 .horizontal-hover:hover {
-    background-color: $red;
-    color: whitesmoke;
-    box-shadow: 10px 0 0 $ocher;
-}
-
-.vertical-hover:hover {
     background-color: $red;
     color: whitesmoke;
     box-shadow: 0 10px 0 $ocher;

@@ -1,9 +1,45 @@
+@import '../../sass/variables.scss';
+
 .comments-card {
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 15px;
-    background-image: url("../../assets/images/art-background-beautiful-961402.jpg");
+    background-image: url("../../assets/images/bloom-blossom-chamomile-1369280.jpg");
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
+    padding: 50px;
+}
+
+.comment {
+    text-align: justify;
+    color: $dark-gray;
+    font-weight: bold;
+}
+
+.topic {
+    color: $dark-gray;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.one-nav__avatar {
+    width: 80px;
+    display: inline-block;
+    text-transform: uppercase;
+    color: $dark-gray;
+    font-weight: bold;
+}
+
+.img-fluid{
+    border-radius: 50%;
+}
+
+.fa-heart{
+    color: $light-salmon;
+    margin: 6px;
+}
+
+.checked {
+    color: $red;
 }
