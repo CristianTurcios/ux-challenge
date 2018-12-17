@@ -1,8 +1,77 @@
 @import '../../sass/variables.scss';
 
 .social-nav {
-    height: 100px;
-    background: $light-grey;
-    border-radius: 7px;
-    margin: 15px 0 15px 0
+  height: 100px;
+  background: $light-grey;
+  margin: 15px 0 0 -15px;
+  color: $dark-gray;
+  font-weight: bold;
+
+  @media (max-width: 768px) {
+    margin: 15px 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+      margin: 15px 0 0 -15px;
+  }
+}
+
+.nav {
+  height: 100px;
+  background: $light-grey;
+  margin: 15px -15px 0 0;
+  color: $dark-gray;
+  font-weight: bold;
+  line-height: 80px;
+
+  @media (max-width: 768px) {
+    margin: 15px 0 -15px 15px;
+  }
+
+  @media (min-width: 768px) {
+      margin: 15px -15px 0 0;
+  }
+}
+
+.nav-item {
+  color: $dark-gray;
+  height: 100%;
+  font-size: 30px;
+}
+
+.nav:first-child {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+}
+
+.nav:last-child {
+  border-right: thin solid rgba(0, 0, 0, 0.1);
+}
+
+.horizontal-hover:hover {
+  background-color: $red;
+  color: whitesmoke;
+}
+
+.input-group {
+  padding: 30px;
+  font-size: 30px;
+  
+}
+
+.input-group-prepend {
+    border-bottom: 1px solid $dark-gray;
+}
+
+.form-control {
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid $dark-gray;
+}
+
+.form-control:focus {
+  background-color: transparent;
+  box-shadow: none;
+  border-bottom: 1px solid $dark-gray;
 }
