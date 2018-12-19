@@ -1,8 +1,24 @@
 @import '../../sass/variables.scss';
 
 .rate-trend-card {
-    background: $light-grey;
-    border-radius: 7px;
-    height: 400px;
-    margin: 15px 0 15px 15px
+  background: $light-grey;
+  border-radius: 7px;
+  height: 400px;
+  margin: 15px 0 15px 15px;
+  padding: 50px;
 }
+
+.center {
+  text-align: center;
+}
+
+.with {
+  margin: 0 0 0 -130px;
+
+}
+
+// .canvas {
+//   background-color: blue;
+//   width: 10%;
+//   height: auto;
+// }
