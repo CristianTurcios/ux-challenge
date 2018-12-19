@@ -1,30 +1,9 @@
-<div class="calendar">
-<!-- <div class="form-group">
-  <label>Begin voorverkoop periode</label>
-  <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
-</div>
-<div class="form-group">
-  <label>Einde voorverkoop periode</label>
-  <input type="date" name="bday" min="1000-01-01" max="3000-12-31" class="form-control">
-</div> -->
+<ngb-datepicker #dp (select)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden">
+</ngb-datepicker>
 
-<!--  -->
-<!-- <div style="overflow:hidden;">
-  <div class="form-group">
-    <div class="row">
-      <div class="col-md-8">
-        <div id="datetimepicker13"></div>
-      </div>
-    </div>
-  </div>
-  <script type="text/javascript">
-    $(function () {
-      $('#datetimepicker13').datetimepicker({
-        inline: true,
-        sideBySide: true
-      });
-    });
-  </script>
-</div> -->
-<!--  -->
-</div>
+<ng-template #t let-date let-focused="focused">
+  <span class="custom-day" [class.focused]="focused" [class.range]="isRange(date)" [class.faded]="isHovered(date) || isInside(date)"
+    (mouseenter)="hoveredDate = date" (mouseleave)="hoveredDate = null">
+    {{ date.day }}
+  </span>
+</ng-template>

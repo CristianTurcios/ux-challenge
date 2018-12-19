@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./check-in-form.component.scss']
 })
 export class CheckInFormComponent implements OnInit {
-
+  model;
   constructor() { }
 
   ngOnInit() {
