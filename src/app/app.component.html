@@ -1,12 +1,12 @@
 <div class="row">
   <div class="col-md-12 col-sm-12">
-    <app-horizontal-navbar></app-horizontal-navbar>
+    <app-navbar [vertical]="false" [horizontal]="true" [data]="horizontalData"></app-navbar>
   </div>
 </div>
 
 <div class="row">
   <div class="col-md-3 col-sm-12">
-    <app-vertical-navbar></app-vertical-navbar>
+    <app-navbar [vertical]="true" [horizontal]="false" [data]="verticalData"></app-navbar>
     <app-check-in-form></app-check-in-form>
   </div>
   <div class="col-md-9 col-sm-12">

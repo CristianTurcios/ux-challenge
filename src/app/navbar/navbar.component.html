@@ -1,0 +1,11 @@
+<nav class="nav nav-pills nav-justified" [ngClass]="{'vertical-menu-nav flex-column': vertical}">
+  <a *ngFor="let item of data; let i = index" class="nav-item nav-link" 
+  [ngClass]="
+  {'vertical-hover': vertical, 
+  'horizontal-hover': horizontal, 
+  'nav-item-horizontal__without--border': horizontal && i === 0, 
+  'nav-item-vertical__without--border': vertical && i === (data.length -1), 
+  'horizontal-border': horizontal, 
+  'vertical-border': vertical}"
+  href="">{{item}}</a>
+</nav>

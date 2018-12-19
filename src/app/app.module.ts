@@ -2,8 +2,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
-import { HorizontalNavbarComponent } from './horizontal-navbar/horizontal-navbar.component';
-import { VerticalNavbarComponent } from './vertical-navbar/vertical-navbar.component';
 import { CheckInFormComponent } from './check-in-form/check-in-form.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { WeatherComponent } from './weather/weather.component';
@@ -16,12 +14,11 @@ import { LogInComponent } from './log-in/log-in.component';
 import { SocialNAvComponent } from './social-nav/social-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { ButtonComponent } from './button/button.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HorizontalNavbarComponent,
-    VerticalNavbarComponent,
     CheckInFormComponent,
     CalendarComponent,
     WeatherComponent,
@@ -33,7 +30,8 @@ import { ButtonComponent } from './button/button.component';
     LogInComponent,
     SocialNAvComponent,
     FooterComponent,
-    ButtonComponent
+    ButtonComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule
