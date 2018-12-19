@@ -8,17 +8,20 @@
   padding: 50px;
 }
 
-.center {
+p {
+  color:$dark-gray;
+}
+
+.title {
   text-align: center;
+  font-weight: bold;
 }
 
-.with {
-  margin: 0 0 0 -130px;
 
+.canvas {
+  display: block;
+  background-color: $greenish;
+  height: 12px;
+  margin: 0 0 8px -90%;
+  border-radius: 0 15px 15px 0;
 }
-
-// .canvas {
-//   background-color: blue;
-//   width: 10%;
-//   height: auto;
-// }

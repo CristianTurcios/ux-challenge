@@ -1,29 +1,22 @@
 <div class="rate-trend-card">
   <div class="row ">
     <div class="col-md-12 col-sm-12">
-      <p class="center">2015 rate trend</p>
+      <p class="title">2015 rate trend</p>
     </div>
   </div>
   <div class="row">
     <div class="col-md-6 col-sm-6 col-6">
-      <p>JAN </p>
+      <p>JAN</p>
       <p>MAR</p>
       <p>MAY</p>
       <p>JUL</p>
       <p>SEP</p>
+      <p>NOV</p>
     </div>
-    <div class="col-md-6 col-sm-6  col-6 with">
-      <canvas id="myCanvas" class="canvas"  style="border:1px solid #000000;"></canvas>
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
-      <canvas id="myCanvas"  class="canvas"  style="border:1px solid #000000;"></canvas>
+    <div class="col-md-6 col-sm-6 col-6">
+      <div *ngFor="let percentage of percentages">
+        <canvas [ngStyle]="{'width': percentage}" class="canvas"></canvas>
+      </div>
     </div>
   </div>
 </div>
