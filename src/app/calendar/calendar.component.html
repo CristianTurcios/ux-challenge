@@ -1,12 +1,92 @@
-<div class="calendar">
-  calendar
+<div class="bs-calendar-container calendar" role="application">
+  <div class="bs-media-container">
+    <div class="bs-datepicker-head">
+      <button class="previous" style="visibility: visible;"><span>‹</span></button>
+      <button class="current"><span>December</span></button>
+      <button class="current"><span>2018</span></button>
+      <button class="next" style="visibility: visible;"><span>›</span></button>
+    </div>
+    <div class="bs-datepicker-body">
+      <table class="days weeks" role="grid">
+        <thead>
+          <tr>
+            <th></th>
+            <th aria-label="weekday">Sun</th>
+            <th aria-label="weekday">Mon</th>
+            <th aria-label="weekday">Tue</th>
+            <th aria-label="weekday">Wed</th>
+            <th aria-label="weekday">Thu</th>
+            <th aria-label="weekday">Fri</th>
+            <th aria-label="weekday">Sat</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="week"><span>48</span></td>
+            <td role="gridcell"><span class="is-other-month">25</span></td>
+            <td role="gridcell"><span class="is-other-month">26</span></td>
+            <td role="gridcell"><span class="is-other-month">27</span></td>
+            <td role="gridcell"><span class="is-other-month">28</span></td>
+            <td role="gridcell"><span class="is-other-month">29</span></td>
+            <td role="gridcell"><span class="is-other-month">30</span></td>
+            <td role="gridcell"><span>1</span></td>
+          </tr>
+          <tr>
+            <td class="week"><span>49</span></td>
+            <td role="gridcell"><span>2</span></td>
+            <td role="gridcell"><span>3</span></td>
+            <td role="gridcell"><span>4</span></td>
+            <td role="gridcell"><span>5</span></td>
+            <td role="gridcell"><span>6</span></td>
+            <td role="gridcell"><span>7</span></td>
+            <td role="gridcell"><span>8</span></td>
+          </tr>
+          <tr>
+            <!---->
+            <td class="week"><span>50</span></td>
+            <!---->
+            <td role="gridcell"><span class="">9</span></td>
+            <td role="gridcell"><span>10</span></td>
+            <td role="gridcell"><span>11</span></td>
+            <td role="gridcell"><span>12</span></td>
+            <td role="gridcell"><span>13</span></td>
+            <td role="gridcell"><span>14</span></td>
+            <td role="gridcell"><span>15</span></td>
+          </tr>
+          <tr>
+            <!---->
+            <td class="week"><span>51</span></td>
+            <!---->
+            <td role="gridcell"><span>16</span></td>
+            <td role="gridcell"><span>17</span></td>
+            <td role="gridcell"><span>18</span></td>
+            <td role="gridcell"><span>19</span></td>
+            <td role="gridcell"><span class="selected">20</span></td>
+            <td role="gridcell"><span>21</span></td>
+            <td role="gridcell"><span>22</span></td>
+          </tr>
+          <tr>
+            <td class="week"><span>52</span></td>
+            <td role="gridcell"><span>23</span></td>
+            <td role="gridcell"><span class="is-highlighted">24</span></td>
+            <td role="gridcell"><span class="is-highlighted">25</span></td>
+            <td role="gridcell"><span class="is-highlighted">26</span></td>
+            <td role="gridcell"><span class="is-highlighted">27</span></td>
+            <td role="gridcell"><span class="is-highlighted">28</span></td>
+            <td role="gridcell"><span class="is-highlighted">29</span></td>
+          </tr>
+          <tr>
+            <td class="week"><span class="is-highlighted">1</span></td>
+            <td role="gridcell"><span class="is-highlighted">30</span></td>
+            <td role="gridcell"><span class="is-highlighted">31</span></td>
+            <td role="gridcell"><span class="is-other-month is-highlighted">1</span></td>
+            <td role="gridcell"><span class="is-other-month">2</span></td>
+            <td role="gridcell"><span class="is-other-month">3</span></td>
+            <td role="gridcell"><span class="is-other-month">4</span></td>
+            <td role="gridcell"><span class="is-other-month">5</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </div>
-<!-- <ngb-datepicker class="calendar" #dp (select)="onDateSelection($event)" [displayMonths]="2" [dayTemplate]="t" outsideDays="hidden">
-</ngb-datepicker>
-
-<ng-template #t let-date let-focused="focused">
-  <span class="custom-day" [class.focused]="focused" [class.range]="isRange(date)" [class.faded]="isHovered(date) || isInside(date)"
-    (mouseenter)="hoveredDate = date" (mouseleave)="hoveredDate = null">
-    {{ date.day }}
-  </span>
-</ng-template> -->

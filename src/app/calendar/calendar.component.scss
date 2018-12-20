@@ -1,31 +1,34 @@
 @import '../../sass/variables.scss';
 
 .calendar {
-    background: $light-salmon;
+    background: $light-grey;
     border-radius: 7px;
     height: 400px;
     margin: 15px 0 15px 0;
-    // width: 90%;
-    color: $light-salmon;
 }
 
-.custom-day {
+.bs-datepicker-head {
+  background-color: $red;
   text-align: center;
-  padding: 0.185rem 0.25rem;
-  display: inline-block;
-  height: 2rem;
-  width: 2rem;
-  color: $light-salmon;
-  background-color: $red;
+  border-radius: 7px;
 }
-.custom-day.focused {
-  background-color: $red;
+
+ .bs-datepicker-body{
+   border: none;
+ }
+
+.is-other-month {
+  color: $reddish;
 }
-.custom-day.range, .custom-day:hover {
-  background-color: $red;
-  border-radius: 15px;
-  color: red;
+
+.bs-datepicker-body table td span.is-highlighted:not(.disabled):not(.selected) {
+  background-color: $light-salmon;
 }
-.custom-day.faded {
-  background-color:transparent;
+
+.week {
+  color: $red
+}
+
+.selected {
+  background-color: $red;
 }
