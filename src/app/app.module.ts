@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
+
 import { CheckInFormComponent } from './check-in-form/check-in-form.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { WeatherComponent } from './weather/weather.component';
@@ -16,6 +17,7 @@ import { ButtonComponent } from './button/button.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
   declarations: [
@@ -37,8 +39,8 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     NgbModule,
-    FormsModule
-    // NgbPaginationModule, NgbAlertModule
+    FormsModule,
+    BsDatepickerModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

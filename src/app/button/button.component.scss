@@ -24,3 +24,13 @@
   padding-right: 40px;
   text-transform: uppercase;
 }
+
+.btn-success {
+  border-radius: 30px;
+  border-color: $light-blue;
+  background: linear-gradient(to right, $dark-light-blue, $greenish);
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  color: $light-grey;
+}
